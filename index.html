@@ -102,7 +102,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <script>
         $(function() {
-
+            $('.slider').slick({
+                dots: true,
+                infinite: true,
+                slidesToShow: 1,
+                fade: true
+            });
         })
     </script>
 </body>

@@ -66,3 +66,9 @@ header {
     justify-content: space-between;
     padding: 50px;
 }
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 60px;
+}

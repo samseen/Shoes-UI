@@ -35,3 +35,23 @@ body {
     display: block;
     margin: 0 0 4px;
 }
+
+.social {
+    position: absolute;
+    transform: rotate(-90deg);
+    display: flex;
+    left: -120px;
+    bottom: 160px;
+    width: 340px;
+    height: 100px;
+    line-height: 100px;
+}
+
+.social a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0 15px;
+}

@@ -21,3 +21,9 @@ body {
     padding: 50px 40px;
     z-index: 9;
 }
+
+.toggle {
+    display: block;
+    width: 25px;
+    cursor: pointer;
+}

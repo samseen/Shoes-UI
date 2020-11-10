@@ -27,3 +27,11 @@ body {
     width: 25px;
     cursor: pointer;
 }
+
+.toggle span {
+    width: 25px;
+    height: 25px;
+    background-color: #000;
+    display: block;
+    margin: 0 0 4px;
+}

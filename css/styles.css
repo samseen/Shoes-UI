@@ -60,3 +60,9 @@ body {
     width: calc(100% - 100px);
     margin-left: 100px;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}

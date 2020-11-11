@@ -83,3 +83,32 @@ header {
     font-size: 18px;
     position: relative;
 }
+
+.menu li a:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background-color: #cfd6ff;
+    z-index: -1;
+    transition: all ease 0.5s;
+}
+
+.menu li a:hover:before {
+    width: 100%;
+}
+
+.slider .text {
+    width: 40%;
+    float: left;
+    padding: 50px 0 0 50px;
+}
+
+.slider .img {
+    width: 60%;
+    float: left;
+}
+
+.slider .img img {
+    margin: 0 auto;
+}

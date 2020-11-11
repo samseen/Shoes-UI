@@ -72,3 +72,7 @@ header {
     display: inline-block;
     margin-right: 60px;
 }
+
+.menu li:last-child {
+    margin-right: 0;
+}

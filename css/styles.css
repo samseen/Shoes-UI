@@ -112,3 +112,8 @@ header {
 .slider .img img {
     margin: 0 auto;
 }
+
+.slider h1 {
+    font-size: 60px;
+    font-weight: 600;
+}

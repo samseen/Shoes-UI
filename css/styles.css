@@ -160,3 +160,7 @@ header {
 .slick-dots li.slick-active button:before {
     color: #5f9dd0;
 }
+
+.slick-track {
+    padding-bottom: 120px;
+}

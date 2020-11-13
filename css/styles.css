@@ -175,3 +175,12 @@ header {
     right: 150px;
     z-index: -1;
 }
+
+.shape-inner {
+    width: calc(100% - 80px);
+    height: calc(100% - 80px);
+    background-color: #fff;
+    border-radius: 100%;
+    margin-left: 40px;
+    margin-top: 40px;
+}

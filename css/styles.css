@@ -184,3 +184,16 @@ header {
     margin-left: 40px;
     margin-top: 40px;
 }
+
+.toggle-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: calc(100% - 80px);
+    height: 100%;
+    background-color: #fff;
+    margin-left: 100px;
+    z-index: 8;
+    overflow-y: auto;
+    transition: all ease 0.5s;
+}

@@ -84,7 +84,8 @@ header {
     position: relative;
 }
 
-.menu li a:before {
+.menu li a:before,
+.toggle-menu ul li a:before {
     content: '';
     position: absolute;
     width: 0;
@@ -94,7 +95,8 @@ header {
     transition: all ease 0.5s;
 }
 
-.menu li a:hover:before {
+.menu li a:hover:before,
+.toggle-menu ul li a:hover:before {
     width: 100%;
 }
 
@@ -196,4 +198,20 @@ header {
     z-index: 8;
     overflow-y: auto;
     transition: all ease 0.5s;
+}
+
+.toggle-menu ul li {
+    list-style: none;
+    display: block;
+}
+
+.toggle-menu ul li a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 55px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    margin: 30px 100px;
 }

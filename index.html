@@ -103,6 +103,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <script>
         $(function() {
+
+            $(".toggle").on("click", function() {
+                $(this).toggleClass("close");
+                $(".toggle-menu").toggleClass("open")
+            })
+
             $('.slider').slick({
                 dots: true,
                 infinite: true,

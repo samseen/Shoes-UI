@@ -108,7 +108,7 @@
                 $(this).toggleClass("close");
                 $(".toggle-menu").toggleClass("open");
 
-                if($(".open").hasClass("close")) {
+                if($(".toggle").hasClass("close")) {
                     anime({
                         targets: '.toggle.close span',
                         duration: 1500,
@@ -121,6 +121,16 @@
                         duration: 1500,
                         rotate: [45, 0],
                         delay: 500
+                    });
+                }
+
+                if($(".toggle-menu").hasClass("open")) {
+                    anime({
+                        targets: '.toggle-menu li a',
+                        duration: 1500,
+                        translateX: [-250, 0],
+                        opacity: [0, 1],
+                        delay: anime.stagger(150, {strat: 100})
                     });
                 }
             })

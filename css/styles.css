@@ -30,7 +30,7 @@ body {
 
 .toggle span {
     width: 25px;
-    height: 25px;
+    height: 2px;
     background-color: #000;
     display: block;
     margin: 0 0 4px;

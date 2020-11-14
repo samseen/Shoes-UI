@@ -215,3 +215,7 @@ header {
     text-transform: uppercase;
     margin: 30px 100px;
 }
+
+.toggle-menu.open {
+    left: 0;
+}

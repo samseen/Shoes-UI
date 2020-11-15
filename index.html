@@ -140,6 +140,15 @@
                 infinite: true,
                 slidesToShow: 1,
                 fade: true
+            }).on('beforeChange', function() {
+                anime({
+                    targets: '.slider .img img',
+                    duration: 1500,
+                    translateX: [0, 250],
+                    rotate: [0, 45],
+                    opacity: [1, 0],
+                    delay: anime.stagger(150, {strat: 100})
+                });
             });
         })
     </script>

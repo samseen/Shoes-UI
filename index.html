@@ -155,6 +155,20 @@
                     opacity: [1, 0],
                     delay: anime.stagger(150, {strat: 100})
                 });
+            }).on('afterChange', function() {
+                anime({
+                    targets: '.slider .img img',
+                    duration: 1500,
+                    translateX: [250, 0],
+                    rotate: [45, 0],
+                    opacity: [0, 1]
+                });
+                
+                anime({
+                    targets: '.slider .text > *',
+                    opacity: [0, 1],
+                    delay: anime.stagger(50)
+                });
             });
         })
     </script>

@@ -210,6 +210,14 @@
                 delay: anime.stagger(100, {start: 700}),
                 easing: 'easeInOutSine'
             });
+            
+            anime({
+                targets: '.slick-dots li',
+                translateY: [250, 0],
+                opacity: [0, 1],
+                delay: anime.stagger(100, {start: 2000}),
+                easing: 'easeInOutSine'
+            });
         });
     </script>
 </body>
